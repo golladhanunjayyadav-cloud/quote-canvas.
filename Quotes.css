@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    min-height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    font-family: 'Georgia', serif;
+    background-image: url(quotes_background.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    transition: opacity 0.4s ease-in-out;
+}
+/*The Card*/
+.card{
+    background: rgba(0,0,0,0.35);
+    border:1px solid rgba(255,255,255,0.18);
+    backdrop-filter: blur(14px);
+    border-radius: 20px;
+    padding: 40px;
+    max-width: 650px;
+    width: 90%;
+    text-align: center;
+    color:white;
+    box-shadow: 0 15px 45px rgba(0,0,0,0.45);
+}
+/* Quote Text*/
+.quote-text{
+    font-size: 1.3rem;
+    line-height: 1.8;
+    margin-bottom: 20px;
+    color:#f0f0f0;
+}
+/*Author*/
+.quote-author {
+    font-size: 1rem;
+    color: #a0c4ff;
+    margin-bottom: 30px;
+    font-style: italic;
+}
+/*Button Group*/
+.btn-group {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+}
+/*Button*/
+.btn {
+    background: linear-gradient(135deg, #2d4a6b, #0f3460);
+    color:white;
+    border: none;
+    padding: 12px 22px;
+    border-radius: 25px;
+    font-size: 0.95rem;
+    cursor: pointer;
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+.btn:hover{
+    transform: scale(1.05);
+    box-shadow: 0 5px 20px rgba(45, 74, 107, 0.6);
+}
