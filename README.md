@@ -2,7 +2,7 @@
 
 A dynamic daily quotes web app that changes its background image based on the quote's category — built with vanilla HTML, CSS, and JavaScript, featuring a sleek glassmorphism UI.
 
-🔗 **Live Demo:** [Add your GitHub Pages link here once deployed]
+🔗 **Live Demo:**https://golladhanunjayyadav-cloud.github.io/quote-canvas./
 
 ---
 
